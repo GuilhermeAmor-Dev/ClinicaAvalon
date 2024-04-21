@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(154, 237, 255);
+    color: black;
+    font-family: 'poppinsregular', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em; 
+}
+
+header ul {
+    margin-top: -120px; 
+}
+
+#title h1 {
+    font-size: 2em;
+    line-height: 1.2;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover, .action-button:hover {
+    color: white;
+    background-color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#fale-conosco-btn, .action-button {
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 2em; 
+}
+
+article {
+    margin-left: 80px; 
+}
+
+article img {
+    width: 500px;
+    display: block; 
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'poppinslight', sans-serif;
+    margin-left: 10px; 
+}
+
+article img {
+    width: 500px;
+    margin-left: auto; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input[type="text"], button {
+    height: 40px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+button.action-button {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+input[type="text"]:hover, button:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+aside ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+aside li {
+    padding: 4px 0; 
+    border-bottom: 1px solid #ccc; 
+    margin-left: 20px; 
+    position: relative; 
+}
+
+aside li::before {
+    content: "•"; 
+    color: #000000; 
+    font-size: 18px; 
+    position: absolute; 
+    left: -20px; 
+    top: 0; 
+}
+
+#title img {
+    width: 150px; 
+    height: auto; 
+}
